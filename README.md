@@ -22,9 +22,9 @@ We are applying the digital convolution equation [1].
 
 If x is an N point signal and h is an M point signal, their convolution (y) is an N+M-1 point signal. 
 
-If indexes of x are x<sub>i</sub> to x<sub>f</sub> and indexes of h are h<sub>i</sub> to h<sub>f</sub>, indexes of convolution (y) becomes [x<sub>i</sub> + h<sub>i</sub>] to [x<sub>j</sub> + h<sub>j</sub>].
+If indexes of x are x<sub>i</sub> to x<sub>j</sub> and indexes of h are h<sub>i</sub> to h<sub>j</sub>, indexes of convolution (y) becomes [x<sub>i</sub> + h<sub>i</sub>] to [x<sub>j</sub> + h<sub>j</sub>].
 
 Value at l index (y[l] ) becomes, multiplication x(index) and h(l-index) values. 
 
-Reference:
+#### Reference:
 [1] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
