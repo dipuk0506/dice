@@ -20,11 +20,13 @@ The request: https://github.com/TheAlgorithms/Python/pull/11463
 ### Convolution:
 We are applying the digital convolution equation [1].
 
-If x is an N point signal and h is an M point signal, their convolution (y) is an N+M-1 point signal. 
+If x is an x<sub>N</sub> point signal and h is an h<sub>M</sub> point signal, their convolution (y) is an x<sub>N</sub>+h<sub>M</sub>-1 point signal. 
 
 If indexes of x are x<sub>i</sub> to x<sub>j</sub> and indexes of h are h<sub>i</sub> to h<sub>j</sub>, indexes of convolution (y) becomes [x<sub>i</sub> + h<sub>i</sub>] to [x<sub>j</sub> + h<sub>j</sub>].
 
-Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. Shortly, y[l] becomes the summation of multiplication values (x $\times$ h) where the summation of indexes ([]+[]) is equal to l.
+Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. 
+
+Shortly, y[l] becomes the summation of multiplication values ($\sum$ x $\times$ h) where the summation of indexes ([]+[]) is equal to l.
 
 #### Reference:
 [1] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
