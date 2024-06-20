@@ -115,6 +115,13 @@ Therefore, when dice rolling is mixed with fair and unfair dice, the convolution
 
 Similarly, the convolution works with a k-number of unfair dice rolling.
 
+#### Note:
+We used this approach to draw figures and write discussions in papers [2,3].
+
 
 #### Reference:
 [1] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
+
+[2] Kabir, HM Dipu, et al. "Uncertainty-aware decisions in cloud computing: Foundations and future directions." ACM Computing Surveys (CSUR) 54.4 (2021): 1-30.
+
+[3] Kabir, HM Dipu, et al. "Partial adversarial training for neural network-based uncertainty quantification." IEEE Transactions on Emerging Topics in Computational Intelligence 5.4 (2019): 595-606.
