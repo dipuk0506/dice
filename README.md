@@ -24,7 +24,7 @@ If x is an N point signal and h is an M point signal, their convolution (y) is a
 
 If indexes of x are x<sub>i</sub> to x<sub>j</sub> and indexes of h are h<sub>i</sub> to h<sub>j</sub>, indexes of convolution (y) becomes [x<sub>i</sub> + h<sub>i</sub>] to [x<sub>j</sub> + h<sub>j</sub>].
 
-Value at l index (y[l] ) becomes, multiplication x(index) and h(l-index) values. 
+Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. Shortly, y[l] becomes the summation of multiplication values (x $\times$ h) where the summation of indexes ([]+[]) is equal to l.
 
 #### Reference:
 [1] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
