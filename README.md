@@ -1,5 +1,7 @@
 ## The Sum of Outcomes for Rolling an N-sided Dice K Times Through Convolution
 
+### Scripts
+
 This repository presents functions in the Python programming language for computing probabilities of finding different numbers as the sum of outcomes for rolling an N-sided dice K times.
 
 There are two functions. One is applicable for a fair dice with a uniform probability distribution. Another is applicable for both fair and unfair dice.
@@ -15,3 +17,14 @@ I have also submitted a pull request to a repository to share the function with 
 The request: https://github.com/TheAlgorithms/Python/pull/11463
 
 
+### Convolution:
+We are applying the digital convolution equation [1].
+
+If x is an N point signal and h is an M point signal, their convolution (y) is an N+M-1 point signal. 
+
+If indexes of x are x<sub>i</sub> to x<sub>f</sub> and indexes of h are h<sub>i</sub> to h<sub>f</sub>, indexes of convolution (y) becomes [x<sub>i</sub> + h<sub>i</sub>] to [x<sub>j</sub> + h<sub>j</sub>].
+
+Value at l index (y[l] ) becomes, multiplication x(index) and h(l-index) values. 
+
+Reference:
+[1] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
