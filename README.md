@@ -1,4 +1,4 @@
-## The sum of outcomes for rolling an N-sided dice K times through convolution
+## The Sum of Outcomes for Rolling an N-sided Dice K Times Through Convolution
 
 This repository presents functions in the Python programming language for computing probabilities of finding different numbers as the sum of outcomes for rolling an N-sided dice K times.
 
