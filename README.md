@@ -43,7 +43,7 @@ Suppose we are rolling two N-sided dice simultaneously. The possible outcomes fo
 
 Write probabilities as an array: [1/N, 1/N, 1/N.......(N-elements)]
 
-Indexes of probabilities:[1,2,3,...........N]
+Indexes of probabilities:[1, 2, 3, ...........N]
 
 The possible summation of outcomes can be 2 to 2N. The summation is 2 when the outcomes from both dice are 1. The summation is 2N when the outcomes from both dice are N. Therefore, the range follows the rule of convolution.
 
