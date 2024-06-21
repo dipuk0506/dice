@@ -54,9 +54,9 @@ The probability of summation of 2 becomes the multiplication of two probabilitie
 
 The summation becomes 3 for (1,2) and (2,1) combinations.
 
-Probabilities: (1/N)*(1/N) for (1,2) and (1/N)*(1/N) for (2,1)
+Probabilities: (1/N) $\times$ (1/N) for (1,2) and (1/N) $\times$ (1/N) for (2,1)
 
-Total probability of getting three as summation: 2*(1/N)*(1/N).
+Total probability of getting three as summation: 2 $\times$ (1/N) $\times$ (1/N).
 
 The summation becomes 4 for (1,3), (2,2), and (3,1) combinations; when N is greater than or equal to 3.
 
