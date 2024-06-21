@@ -25,13 +25,13 @@ We are applying the digital convolution equation [2].
 
 If $x$ is an $N_x$ point signal and $h$ is an $N_h$ point signal, their convolution ($y$) is an $N_x+N_h-1$ point signal. 
 
-If indexes of $x$ are $i_x$ to $j_x$ and indexes of $h$ are $i_h$ to $j_h$, indexes of convolution ($y$) becomes [i<sub>x</sub> + i<sub>h</sub>] to [j<sub>x</sub> + j<sub>h</sub>].
+If indexes of $x$ are $i_x$ to $j_x$ and indexes of $h$ are $i_h$ to $j_h$, indexes of convolution ($y$) becomes $i_x+i_h$ to $j_x+j_h$.
 
 Value at l index ($y[l]$) becomes the summation of $x[index] \times h[l-index]$ values. The equation is as follows:
 
 $$y[l] = \sum\limits_{index=-\inf}^{\inf} x[index] . h[l-index] $$
 
-In this equation, $x[index]$ is zero when $index$ is out of the range of $x$. Also, $h[index]$ is zero when $index$ is out of the range of $h$.
+In this equation, $x[index]$ is zero when $index$ is out of the range of $x$. Also, $h[l-index]$ is zero when $l-index$ is out of the range of $h$.
 
 Shortly, $y[l]$ becomes the summation of multiplication values ($\sum x[] \times h[]$) where the summation of indexes ([]+[]) is equal to $l$.
 
