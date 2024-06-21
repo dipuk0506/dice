@@ -117,17 +117,17 @@ The probability of getting 3 as summation is p2 $\times$ q1
 
 The probability of getting 4 as summation is p2 $\times$ q2 + p3 $\times$ q1
 
-Therefore, when dice rolling is mixed with fair and unfair dice, the convolution works.
+Therefore, when dice rolling is mixed with fair and unfair dice, the convolution can still compute the probability distribution.
 
 Similarly, the convolution works with a k-number of unfair dice rolling.
 
 #### Note:
-We used this approach to draw figures and write discussions in papers [1,3].
+We used this approach to draw figures and write discussions in papers [1, 3].
 
 
 #### Reference:
 [1] Kabir, HM Dipu, et al. "Uncertainty-aware decisions in cloud computing: Foundations and future directions." ACM Computing Surveys (CSUR) 54.4 (2021): 1-30.
 
-[2] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
+[2] Smith, S. W. "Convolution." The scientist and engineer's guide to digital signal processing, Chapter 6 (1997): 107-122.
 
 [3] Kabir, HM Dipu, et al. "Partial adversarial training for neural network-based uncertainty quantification." IEEE Transactions on Emerging Topics in Computational Intelligence 5.4 (2019): 595-606.
