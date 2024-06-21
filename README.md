@@ -25,11 +25,13 @@ We are applying the digital convolution equation [2].
 
 If x is an x<sub>N</sub> point signal and h is an h<sub>M</sub> point signal, their convolution (y) is an x<sub>N</sub>+h<sub>M</sub>-1 point signal. 
 
-If indexes of x are x<sub>i</sub> to x<sub>j</sub> and indexes of h are h<sub>i</sub> to h<sub>j</sub>, indexes of convolution (y) becomes [x<sub>i</sub> + h<sub>i</sub>] to [x<sub>j</sub> + h<sub>j</sub>].
+If indexes of x are i<sub>x</sub> to j<sub>x</sub> and indexes of h are i<sub>h</sub> to j<sub>h</sub>, indexes of convolution (y) becomes [i<sub>x</sub> + i<sub>h</sub>] to [j<sub>x</sub> + j<sub>h</sub>].
 
-Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. 
+Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. The equation is as follows:
 
-Shortly, y[l] becomes the summation of multiplication values ($\sum$ x $\times$ h) where the summation of indexes ([]+[]) is equal to l.
+$$y[l] = \sum\limits_{index=-\inf}^{\inf} x[index] . h[l-index] $$
+
+Shortly, y[l] becomes the summation of multiplication values ($\sum$ x[] $\times$ h[]) where the summation of indexes ([]+[]) is equal to l.
 
 
 ### Relationship Between Dice Throwing and Convolution
