@@ -88,13 +88,11 @@ Suppose we are rolling another N-sided dice simultaneously with the previous two
 
 The range of probable summations will be 3 to 3 $\times$ N
 
-The summation becomes 3 for (1, 1, 1) combination. Which is equal to 
-
-The probability of getting as sum 2 in the first 2 rolls, and 1 in the third; the (2,1) combination.
+The summation becomes 3 for (1, 1, 1) combination. Which is equal to the probability of getting as sum 2 in the first two rolls and 1 in the third; the ($\bf{2}$,1) combination. As 2 is the outcome of the summation from the first two dice, it is in the boldface.
 
 That probability is p2 $\times$ (1/N).
 
-The summation becomes 4 for (2,2) and (3,1) combinations.
+The summation becomes 4 for ($\bf{2}$,2) and ($\bf{3}$,1) combinations.
 
 The probability becomes p2 $\times$ (1/N) + p3 $\times$ (1/N)
 
