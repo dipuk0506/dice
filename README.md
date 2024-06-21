@@ -1,5 +1,8 @@
 ## The Sum of Outcomes for Rolling an N-sided Dice K Times Through Convolution
 
+<img src="https://github.com/dipuk0506/dice/blob/main/Dice_interval5.png" width="700">
+The image is collected from our paper [1].
+
 ### Scripts
 
 This repository presents functions in the Python programming language for computing probabilities of finding different numbers as the sum of outcomes for rolling an N-sided dice K times.
@@ -18,7 +21,7 @@ The request: https://github.com/TheAlgorithms/Python/pull/11463
 
 
 ### Convolution:
-We are applying the digital convolution equation [1].
+We are applying the digital convolution equation [2].
 
 If x is an x<sub>N</sub> point signal and h is an h<sub>M</sub> point signal, their convolution (y) is an x<sub>N</sub>+h<sub>M</sub>-1 point signal. 
 
@@ -27,6 +30,7 @@ If indexes of x are x<sub>i</sub> to x<sub>j</sub> and indexes of h are h<sub>i<
 Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. 
 
 Shortly, y[l] becomes the summation of multiplication values ($\sum$ x $\times$ h) where the summation of indexes ([]+[]) is equal to l.
+
 
 ### Relationship Between Dice Throwing and Convolution
 
@@ -116,12 +120,12 @@ Therefore, when dice rolling is mixed with fair and unfair dice, the convolution
 Similarly, the convolution works with a k-number of unfair dice rolling.
 
 #### Note:
-We used this approach to draw figures and write discussions in papers [2,3].
+We used this approach to draw figures and write discussions in papers [1,3].
 
 
 #### Reference:
-[1] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
+[1] Kabir, HM Dipu, et al. "Uncertainty-aware decisions in cloud computing: Foundations and future directions." ACM Computing Surveys (CSUR) 54.4 (2021): 1-30.
 
-[2] Kabir, HM Dipu, et al. "Uncertainty-aware decisions in cloud computing: Foundations and future directions." ACM Computing Surveys (CSUR) 54.4 (2021): 1-30.
+[2] Smith, S. W. (1997). "Convolution," Chapter 6, The scientist and engineer's guide to digital signal processing.
 
 [3] Kabir, HM Dipu, et al. "Partial adversarial training for neural network-based uncertainty quantification." IEEE Transactions on Emerging Topics in Computational Intelligence 5.4 (2019): 595-606.
