@@ -1,6 +1,6 @@
 ## The Sum of Outcomes for Rolling an N-sided Dice K Times Through Convolution
 
-<img src="https://github.com/dipuk0506/dice/blob/main/Dice_interval5.png" width="700">
+<img src="https://github.com/dipuk0506/dice/blob/main/dice_interval5.png" width="700">
 The image is collected from our paper [1].
 
 ### Scripts
