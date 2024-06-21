@@ -72,31 +72,31 @@ The probability: 2 $\times$ (1/N) $\times$ (1/N)
 
 The summation becomes 2 $\times$ N-1 for (N, N-1) and (N-1, N) combinations and the probability is 2 $\times$ (1/N) $\times$ (1/N).
 
-The summation becomes 2 $\times$ N for the (N, N) combination, and the probability is (1/N)*(1/N).
+The summation becomes 2 $\times$ N for the (N, N) combination, and the probability is (1/N) $\times$ (1/N).
 
 Therefore, we can get the probability of getting a sum using the convolution for two dice throwing.
 
 
 Let's write the probability distribution of getting different summations for two dice throwing as follows:
 
-The array of probability: [p2,p3,p4... p2N]
+The array of probability: [p2, p3, p4, ... p2N]
 
-Indexes of probabilities: [2,3,...........,2N]
+Indexes of probabilities: [2, 3, ..........,2N]
 
 #### Three dice:
 Suppose we are rolling another N-sided dice simultaneously with the previous two dice.
 
-The range of probable summations will be 3 to 3*N
+The range of probable summations will be 3 to 3 $\times$ N
 
 The summation becomes 3 for (1, 1, 1) combination. Which is equal to 
 
 The probability of getting as sum 2 in the first 2 rolls, and 1 in the third; the (2,1) combination.
 
-That probability is p2*(1/N).
+That probability is p2 $\times$ (1/N).
 
 The summation becomes 4 for (2,2) and (3,1) combinations.
 
-The probability becomes p2*(1/N) + p3*(1/N)
+The probability becomes p2 $\times$ (1/N) + p3 $\times$ (1/N)
 
 Similarly, for all probable summation values (S), we found the following pattern:
 
@@ -111,13 +111,13 @@ Let us assume the third dice has M number of sides with non-uniform probability.
 
 Let us assume probabilities are [q1, q2, q3, .... qM]
 
-Indexes of probabilities: [1,2,3,...........,M]
+Indexes of probabilities: [1, 2, 3, ...........,M]
 
 The range of getting different summation values is 3 to 2N+M.
 
-The probability of getting 3 as summation is p2 * q1
+The probability of getting 3 as summation is p2 $\times$ q1
 
-The probability of getting 4 as summation is p2 * q2 + p3 * q1
+The probability of getting 4 as summation is p2 $\times$ q2 + p3 $\times$ q1
 
 Therefore, when dice rolling is mixed with fair and unfair dice, the convolution works.
 
