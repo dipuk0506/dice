@@ -60,19 +60,19 @@ Total probability of getting three as summation: 2 $\times$ (1/N) $\times$ (1/N)
 
 The summation becomes 4 for (1,3), (2,2), and (3,1) combinations; when N is greater than or equal to 3.
 
-The probability: 3*(1/N)*(1/N)
+The probability: 3 $\times$ (1/N) $\times$ (1/N)
 
 The summation becomes 7 for (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1) combinations; when N is greater than or equal to 6.
 
-The probability: 6*(1/N)*(1/N)
+The probability: 6 $\times$ (1/N) $\times$ (1/N)
 
 If N is 4, the summation becomes 7 for (3,4), and (4,3) combinations.
 
-The probability: 2*(1/N)*(1/N)
+The probability: 2 $\times$ (1/N) $\times$ (1/N)
 
-The summation becomes 2*N-1 for (N, N-1) and (N-1, N) combinations and the probability is 2*(1/N)*(1/N).
+The summation becomes 2 $\times$ N-1 for (N, N-1) and (N-1, N) combinations and the probability is 2 $\times$ (1/N) $\times$ (1/N).
 
-The summation becomes 2*N for the (N, N) combination, and the probability is (1/N)*(1/N).
+The summation becomes 2 $\times$ N for the (N, N) combination, and the probability is (1/N)*(1/N).
 
 Therefore, we can get the probability of getting a sum using the convolution for two dice throwing.
 
