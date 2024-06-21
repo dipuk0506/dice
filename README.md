@@ -27,7 +27,7 @@ If $x$ is an $N_x$ point signal and $h$ is an $N_h$ point signal, their convolut
 
 If indexes of $x$ are $i_x$ to $j_x$ and indexes of $h$ are $i_h$ to $j_h$, indexes of convolution ($y$) becomes $i_x+i_h$ to $j_x+j_h$.
 
-Value at l index ($y[l]$) becomes the summation of $x[index] \times h[l-index]$ values. The equation is as follows:
+Value at $l$ index ($y[l]$) becomes the summation of $x[index] \times h[l-index]$ values. The equation is as follows:
 
 $$y[l] = \sum\limits_{index=-\inf}^{\inf} x[index] . h[l-index] $$
 
