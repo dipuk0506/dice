@@ -23,15 +23,17 @@ The request: https://github.com/TheAlgorithms/Python/pull/11463
 ### Convolution:
 We are applying the digital convolution equation [2].
 
-If x is an x<sub>N</sub> point signal and h is an h<sub>M</sub> point signal, their convolution (y) is an x<sub>N</sub>+h<sub>M</sub>-1 point signal. 
+If $x$ is an $N_x$ point signal and $h$ is an $N_h$ point signal, their convolution ($y$) is an $N_x+N_h-1$ point signal. 
 
-If indexes of x are i<sub>x</sub> to j<sub>x</sub> and indexes of h are i<sub>h</sub> to j<sub>h</sub>, indexes of convolution (y) becomes [i<sub>x</sub> + i<sub>h</sub>] to [j<sub>x</sub> + j<sub>h</sub>].
+If indexes of $x$ are $i_x$ to $j_x$ and indexes of $h$ are $i_h$ to $j_h$, indexes of convolution ($y$) becomes [i<sub>x</sub> + i<sub>h</sub>] to [j<sub>x</sub> + j<sub>h</sub>].
 
-Value at l index (y[l] ) becomes the summation of x[index] $\times$ h[l-index] values. The equation is as follows:
+Value at l index ($y[l]$) becomes the summation of $x[index] \times h[l-index]$ values. The equation is as follows:
 
 $$y[l] = \sum\limits_{index=-\inf}^{\inf} x[index] . h[l-index] $$
 
-Shortly, y[l] becomes the summation of multiplication values ($\sum$ x[] $\times$ h[]) where the summation of indexes ([]+[]) is equal to l.
+In this equation, $x[index]$ is zero when $index$ is out of the range of $x$. Also, $h[index]$ is zero when $index$ is out of the range of $h$.
+
+Shortly, $y[l]$ becomes the summation of multiplication values ($\sum x[] \times h[]$) where the summation of indexes ([]+[]) is equal to $l$.
 
 
 ### Relationship Between Dice Throwing and Convolution
