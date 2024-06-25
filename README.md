@@ -38,7 +38,7 @@ Shortly, $y[l]$ becomes the summation of multiplication values ($\sum x[] \times
 
 ### Relationship Between Dice Throwing and Convolution
 
-#### Two dice:
+### Two dice:
 Suppose we are rolling two N-sided dice simultaneously. The possible outcomes for one dice is 1 to N. Each of one to N outcomes has a probability of 1/N.
 
 Write probabilities as an array: [1/N, 1/N, 1/N.......(N-elements)]
@@ -83,7 +83,7 @@ The array of probability: [p2, p3, p4, ... p2N]
 
 Indexes of probabilities: [2, 3, ..........,2N]
 
-#### Three dice:
+### Three dice:
 Suppose we are rolling another N-sided dice simultaneously with the previous two dice.
 
 The range of probable summations will be 3 to 3 $\times$ N
@@ -104,7 +104,7 @@ All multiplications are added to compute the probability of getting S as the sum
 
 Similarly, we can continue convoluting to obtain summation probabilities for more dice rolling.
 
-#### Third dice is unfair:
+### Third dice is unfair:
 Let us assume the third dice has M number of sides with non-uniform probability.
 
 Let us assume probabilities are [q1, q2, q3, .... qM]
